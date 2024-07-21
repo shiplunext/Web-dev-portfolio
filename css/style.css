@@ -13,7 +13,20 @@
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
-    
+/* main style */
+
+.main{
+    max-width: 1140px;
+    margin: o auto;
+}
+.text-center{
+    text-align: center;
+}    
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 /* Nav style */
 nav {
@@ -35,6 +48,19 @@ nav {
     border-radius: 10px;
     border: none;
     font-size: 20px;
+}
+.secondary-bg{
+    background-color: #fff8f3;
+}
+
+.section-titel{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
 }
 
 
@@ -90,4 +116,52 @@ nav ul a{
 
 .banner-profile-pic{
     width: 580px;
+}
+
+
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+
+.skill{
+    border-radius: 10px;
+    padding: 70px 80px;
+    text-align: center;
+    
+}
+.item-description{
+    font-weight: 600;
+    
+}
+.item-titel{
+    color: #0512a3;
+    
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.skill-container{
+    display: flex;
+    gap: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.skill{
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px; 
+}
+.text-center{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
 }
